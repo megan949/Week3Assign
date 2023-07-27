@@ -1,0 +1,25 @@
+# This program says hello and asks a little about me.
+
+print('Hello! What is your name?')  # ask for name
+myName = input("Name: ")
+print('It is nice to meet you, ' + myName)
+print('How old are you?')  # ask for their age
+myAge = input("Age: ")
+print('You will be ' + str(int(myAge) + 1) + ' next year.')
+print('Where are you from?')  # ask where they're from
+myLocation = input()
+print('What kind of music do you enjoy?')  # ask their favorite music
+myMusic = input()
+print('What do you like to do for fun?')  # ask what they do for fun
+myFun = input()
+print('Who is your favorite author?')  # ask for favorite author
+myAuthor = input()
+print('Do you like watching movies? If so, which kind are your favorites?')
+myMovies = input()
+print('Do you have any siblings? If so, are you older or younger?')
+mySiblings = input()
+print('Do they enjoy scary movies too?')
+siblingAnswer = input()
+print('How many pets do you have and what kind?')
+myPets = input("How many/types: ")
+print('Thank you for telling me a little about yourself.')
